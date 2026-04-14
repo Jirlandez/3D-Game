@@ -96,6 +96,22 @@ public class CameraRotate : MonoBehaviour
         targetPosition = newPosition;
     }
 
+    //Wanted to change a specific value but can't see vector 3 stuff 
+    public void SetTargetPositionZ(float zValue)
+    {
+        targetPosition.z = zValue;
+    }
+    public void SetTargetPositionX(float xValue)
+    {
+        targetPosition.x = xValue;
+    }
+
+    public void SetTargetPositionY(float yValue)
+    {
+        targetPosition.y = yValue;
+    }
+
+
     public void SetTargetRotation(Quaternion newRotation)
     {
         fixedTargetRotation = newRotation;

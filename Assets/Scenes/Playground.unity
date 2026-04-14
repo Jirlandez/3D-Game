@@ -1548,7 +1548,7 @@ MonoBehaviour:
   drawNode: 1
   nodeColor: {r: 0, g: 1, b: 0.04619026, a: 1}
   nodeIcon: MovingObjectNode.png
-  lastKnownIndex: -1
+  lastKnownIndex: 1
   movingObject: {fileID: 277650882}
 --- !u!1001 &374705520
 PrefabInstance:
@@ -5244,6 +5244,10 @@ PrefabInstance:
     - target: {fileID: 4434298225507804538, guid: 422dd9c878e504da391c972662de2121, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992209025091803759, guid: 422dd9c878e504da391c972662de2121, type: 3}
+      propertyPath: drawTriggerArea
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8888508360355004090, guid: 422dd9c878e504da391c972662de2121, type: 3}
       propertyPath: m_LocalPosition.x

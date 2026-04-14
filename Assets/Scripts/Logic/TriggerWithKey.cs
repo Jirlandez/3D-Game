@@ -8,7 +8,7 @@ public class TriggerWithKey : MonoBehaviour
 
     [Space]
     [Tooltip("Which keyboard key triggers this event. It's recommended you explain this new control in your game via text.")]
-    public string keyToTrigger = "e";
+    public string keyToTrigger = "E";
     [Range(1,7)]
     [Tooltip("Which button on a gamepad triggers this event (mandatory). Butons 1-3 are face buttons, 4 and 6 are left triggers, 5 and 7 are right triggers.")]
     public int gamepadButtonToTrigger = 1;
